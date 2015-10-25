@@ -1,4 +1,5 @@
 #!/usr/bin/guile -s
+!#
 
 
 (begin
