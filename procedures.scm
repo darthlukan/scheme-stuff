@@ -4,6 +4,7 @@
 (begin
   (define add2
     (lambda (x) 
-      (display (+ x 2))
-      (newline)))
-  (add2 10)) ; => 12
+      (+ x 2)))
+
+  (display (add2 10)) ;=> 12
+  (newline))
