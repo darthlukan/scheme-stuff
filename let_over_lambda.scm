@@ -18,6 +18,6 @@
     (lambda (arg)
       ; the shell passes args as strings, convert to number
       ; NOTE: This will fail if an arg cannot be parsed as a number!
-      (display (add5 (string->number arg))))
+      (display (add5 (string->number arg))) (display " "))
     (cdr args))
   (newline))
