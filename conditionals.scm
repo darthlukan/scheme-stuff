@@ -6,8 +6,9 @@
 
   (define (doubler i)
     (if (number? i)             ; condition
-      (* x 2)))                 ; then
-                                ; else is optional
+        (* x 2)                 ; then
+        #f))                    ; else is optional
+
   (display (doubler x))         ; => 20
   (newline)
-  (display (doubler "hello")))  ; => #<unspecified> 
+  (display (doubler "hello")))  ; => #f
